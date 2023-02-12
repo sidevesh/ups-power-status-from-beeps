@@ -2,7 +2,10 @@
 name = "ups-power-status-from-beeps"
 version = "0.1.0"
 authors = ["Swapnil Devesh <me@sidevesh.com>"]
+description = "Project to detect the current power status of a UPS by using a sound sensor to detect its beep patterns"
+repository = "https://github.com/sidevesh/ups-power-status-from-beeps"
+license = "MIT"
 
 [dependencies]
+[target.armv7-unknown-linux-gnueabihf.dependencies]
 rppal = "0.14.1"
-std = { version = "1.47.0", features = ["duration"] }
